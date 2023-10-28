@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+}
+table {
+    border-collapse: collapse;
+    border: 2.5px solid black;
+    position: absolute;
+    left: calc((max(100vw - 60vh, 40vw) - 20px) / 2);
+    top: calc((max(40vh, 100vh - 60vw) - 20px) / 2);
+}
+tr {
+    display: flex;
+}
+td {
+    border: 2.5px solid black;
+    width: min(20vh, 20vw);
+    height: min(20vh, 20vw);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: min(10vh, 10vw);
+}
